@@ -8,18 +8,23 @@
 <body>
     <div class="container">
         <section id="upload-section">
-            <div id="status-container">
-                
-            </div>
-            <div>
-                <input type="file" id="upload">
+            <div class="file-upload-wrapper">
+                <button class="file-upload-button">Upload an Image</button>
+                <input type="file" id="upload" />
             </div>
         </section>
         <section id="result">
-            <h2 id="description"></h2>
-            <div class="image">
-                <img id="uploaded-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" />
+            <div id="spinner-container">
+                <div class="lds-circle">
+                    <div></div>
+                </div>
             </div>
+            <div id="image-container">
+                <h2 id="description"></h2>
+                <img id="uploaded-image" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" />
+                <div id="tags"></div>
+            </div>
+            
         </section>
     </div>
 
