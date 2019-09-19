@@ -25,7 +25,8 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "COMPUTER_VISION_SUBSCRIPTION_KEY": "",
-        "COMPUTER_VISION_ENDPOINT": ""
+        "COMPUTER_VISION_ENDPOINT": "",
+        "MAX_IMAGE_SIZE":"4000000"
       }
     }
   }
